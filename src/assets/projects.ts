@@ -10,12 +10,13 @@ import randomUser from './media/RandomUser.png'
 import fileExplorer from './media/fileExplorer.png'
 import itemsForYou from './media/ItemsForYou.png'
 import solarSystem from './media/solarSystem.png'
+import typingTest from './media/TypingTest.png'
 
 export const projects: any = [
     {
-        "name": "Netflix Clone",
-        "thumbnail": netflixClone,
-        "live-link": "https://netflixclone-70f4a.web.app/",
+        "name": "Typing Test",
+        "thumbnail": typingTest,
+        "live-link": "https://typingtestwithbuckyalita.netlify.app/",
     },
     {
         "name": "Bitcoin Price Checker",
@@ -31,6 +32,11 @@ export const projects: any = [
         "name": "AppVillaClone",
         "thumbnail": appVillaClone,
         "live-link": "https://appvillaclone.netlify.app/",
+    },
+    {
+        "name": "Netflix Clone",
+        "thumbnail": netflixClone,
+        "live-link": "https://netflixclone-70f4a.web.app/",
     },
     {
         "name": "Memory Checker Game",
