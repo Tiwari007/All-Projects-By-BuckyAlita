@@ -2,6 +2,7 @@
 import './App.css'
 import { projects } from "./assets/projects.ts"
 import ProjectCard from './components/ProjectCard'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 type ProjectsType = {
   name: string,
@@ -18,8 +19,9 @@ function App() {
     <>
       <div className='App'>
         <div className="header">
-          PROJECTS
+          PROJECTS <span>( By Vivek Tiwari)</span>
         </div>
+        <a href='https://github.com/Tiwari007' target="_blank" ><GitHubIcon className='github__icon' /></a>
 
         <div className="projects">
           {
@@ -27,6 +29,10 @@ function App() {
               <ProjectCard project={project} key={index} />
             ))
           }
+        </div>
+
+        <div className="footer">
+          Projects By <a href="#" target="_blank">Vivek Tiwari #BuckyAlita</a>
         </div>
 
       </div>
