@@ -5,10 +5,11 @@ import memoryChecker from './media/MemoryChecker.png'
 import portfolio from './media/Portfolio.png'
 
 import pagination from './media/Pagination.png'
-import passwordGenerator from './media/Pagination.png'
+import passwordGenerator from './media/PasswordGenerator.png'
 import randomUser from './media/RandomUser.png'
 import fileExplorer from './media/fileExplorer.png'
 import itemsForYou from './media/ItemsForYou.png'
+import solarSystem from './media/solarSystem.png'
 
 export const projects: any = [
     {
@@ -38,7 +39,7 @@ export const projects: any = [
     },
     {
         "name": "Solar System Using ThreeJS",
-        "thumbnail": "https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "thumbnail": solarSystem,
         "live-link": "https://6360bea71c3f0852dee023ff--itssolarsystem.netlify.app/",
     },
     {
